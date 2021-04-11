@@ -248,6 +248,25 @@ hr {
     background-color: #ffc000 !important;
 }
 
+.enrollImage{
+    width: 20rem;
+}
+
+.enrollNow{
+    background: url('../img/5.png');
+    object-fit: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: 20;
+}
+
+/* .enrollNow{
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    margin-left: -10rem;
+} */
+
 .card1 {
     width: 23%;
     padding: 1rem 3rem;

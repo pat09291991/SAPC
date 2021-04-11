@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script src="https://kit.fontawesome.com/f486ab3997.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-light bg-danger">
+            <a class="navbar-brand text-white ml-5 px-0 dashboardTitle" href="./index.html">SAN ANTONIO DE PADUA</a>
+            <a class="px-3 mb-0 text-white" href="./index.html">SIGN OUT</a>
+        </nav>
+
+        <nav id="desktopViewNav">
+            <div class="nav nav-tabs bg-danger" id="nav-tab" role="tablist">
+                <button class="nav-link active rounded-0 ml-5 px-5 py-3 text-danger font-weight-bolder"
+                    id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab"
+                    aria-controls="nav-home" aria-selected="true">DASHBOARD</button>
+                <button class="nav-link rounded-0 border-light bg-danger px-5 py-3 text-white font-weight-bolder"
+                    id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">STUDENT INFO</button>
+                <button class="nav-link rounded-0 border-light bg-danger px-5 py-3 text-white font-weight-bolder"
+                    id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">ENDROLLMENT</button>
+                <button class="nav-link rounded-0 border-light bg-danger px-5 py-3 text-white font-weight-bolder"
+                    id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">REGISTRATION</button>
+                <button class="nav-link rounded-0 border-light bg-danger px-5 py-3 text-white font-weight-bolder"
+                    id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">CASHIER</button>
+            </div>
+        </nav>
+        <div class="d-flex dashboard">
+            <div class="card1">
+                <div class="card w-100">
+                    <img class="card-img-top" src="./assets/img/DashboardImage.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Name</h5>
+                        <p class="card-text text-dark"><i>18D - 062399 <br> Bachelor of Arts in Psychology, 2nd Year
+                                <br> Pila-poblacion Road 4010 Pila, Philippines</i></p>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <p>CONTACTS</p>
+                        <p class="card-text">(09)77-688-62386 <br> studentemail@sapc.edu.ph</p>
+                        <button class="btn text-danger font-weight-bolder px-0">+ Add Facebook</button>
+                    </div>
+                </div>
+            </div>
+            <div class="secondcard">
+                <div class="card tableCard w-100 mb-5">
+                    <div class="card-body">
+                        <h1 class="card-title">Schedule</h1>
+                        <div class="table-responsive table-wrapper-scroll-y my-custom-scrollbar">
+                            <table class="table table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">TIME</th>
+                                        <th scope="col">MONDAY</th>
+                                        <th scope="col">TUESDAY</th>
+                                        <th scope="col">WEDNESDAY</th>
+                                        <th scope="col">THURSDAY</th>
+                                        <th scope="col">FRIDAY</th>
+                                        <th scope="col">SATURDAY</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>07:00 AM</td>
+                                        <td rowspan="3">Introduction to Psychology</td>
+                                        <td rowspan="3">Physiological Psychology</td>
+                                        <td rowspan="4"></td>
+                                        <td rowspan="3">Physiological Psychology</td>
+                                        <td rowspan="3">Introduction to Psychology</td>
+                                        <td rowspan="2">Experimental Psychology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>07:30 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08:00 AM</td>
+                                        <td rowspan="6"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>08:30 AM</td>
+                                        <td rowspan="6">Development Psych</td>
+                                        <td rowspan="5"></td>
+                                        <td rowspan="5">Physiological Psychology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 AM</td>
+                                        <td rowspan="4">Development Psych</td>
+                                        <td rowspan="12">Cognitive Psychology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:30 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:30 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 AM</td>
+                                        <td rowspan="3">Theories of Personality</td>
+                                        <td rowspan="3">Theories of Personality</td>
+                                        <td rowspan="3">Theories of Personality</td>
+                                        <td rowspan="3">Field Methods in Psychology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30 AM</td>
+                                        <td rowspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex thirdFourthCard">
+                    <div class="card balanceCard w-50 mb-5">
+                        <div class="card-body px-5">
+                            <h1 class="card-title mb-5">Balance</h1>
+                            <table class="table table-bordered mb-5">
+                                <tr>
+                                    <td class="font-weight-bolder">FEES</td>
+                                    <td class="font-weight-bolder text-danger">P 39,999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-weight-bolder">BALANCE</td>
+                                    <td class="font-weight-bolder text-danger">P 19,500.00</td>
+                                </tr>
+                            </table>
+                            <div class="d-flex justify-content-between">
+                                <p class="font-weight-bolder">PAYMENT METHOD <br> <span
+                                        class="text-warning">EWALLET</span></p>
+                                <p class="font-weight-bolder">STATUS: <span class="text-warning">PARTIAL</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card statusCard w-50 mb-5 ml-5">
+                        <div class="card-body p-0">
+                            <!-- <h1 class="card-title mb-5">Enrollment Status</h1> -->
+                            <img class="card-img-top newsImages" src="./assets/img/statuschart.jpg"
+                                alt="Card image cap">
+                            <!-- <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>0</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>10</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>20</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>30</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>40</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>50</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>60</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>70</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>80</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>90</small>
+                                </div>
+                                <div>
+                                    <div class="vlchart0"></div>
+                                    <small>100</small>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.NavbarList:hover {
+    background-color: #800000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+a, .card-title, .application, .application-title, .application-footer {
+    color: #800000 !important;
+}
+
+.title {
+    display: none;
+}
+
+.carouselImage {
+    height: 80vh !important;
+}
+
+.carouselImage {
+    object-fit: cover !important;
+    object-position: top left;
+}
+
+/* .image1carousel{
+    background: url('../img/landing_page.jpg');
+    height: 85vh;
+    background-position: center;
+    object-fit: contain;
+} */
+
+#gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 60%;
+    height: 80vh;
+    z-index: 1;
+    background-image: linear-gradient(to right, red, transparent);
+}
+
+.logoLandingPage{
+    position: absolute;
+    top: 1rem;
+    z-index: 99999999999;
+}
+hr {
+    border: 1px solid #800000;
+}
+
+.card-text p a {
+    color: #ffc000 !important;
+}
+
+.latestNews {
+    background-color: #800000;
+    width: 18rem;
+    margin-bottom: -50px;
+    z-index: 100;
+    position: relative;
+    top: 0;
+    color: #ffc000;
+}
+
+.latestNews2 {
+    background-color: #ffc000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card2 {
+    background-color: #ffc000;
+}
+
+.CardGroup2 {
+    justify-content: center;
+    display: flex;
+}
+
+.news {
+    margin-bottom: 5rem;
+}
+
+.landingPageNav{
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+    background-color: white;
+}
+.text-danger{
+    color: #800000 !important;
+}
+
+.btn-danger{
+    background-color: #800000 !important;
+}
+.vl {
+    border-left: 4px solid #800000;
+    height: 82vh;
+}
+
+.vl2 {
+    border-top: 4px solid #800000;
+    width: 2rem;
+}
+
+.vl3 {
+    border-bottom: 4px solid #800000;
+    width: 2rem;
+}
+
+.fillupForm {
+    margin-left: 200px !important;
+}
+
+.fillupForm2 {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+    margin-left: 100px;
+    background-color: #800000;
+}
+
+.fillupbottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.fillupbottom img {
+    height: 27rem;
+}
+
+.sendBtn {
+    background-color: #ffc000;
+    margin-left: -37rem;
+}
+
+.admission {
+    color: #ffc000;
+}
+
+.hrAdmission {
+    border: 1px solid #ffc000;
+}
+
+.footer {
+    min-height: 15rem;
+    background-color: #800000;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#icon {
+    height: 150px;
+    width: 150px;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+}
+
+.application-selection {
+    min-height: 100vh;
+}
+
+.selectionClass1 {
+    display: block;
+    cursor: pointer;
+    object-fit: contain;
+    height: auto;
+    z-index: 1;
+}
+
+.selectionClass2 {
+    display: block;
+    cursor: pointer;
+    object-fit: contain;
+    height: auto;
+}
+
+.selectionClass1:hover, .selectionClass2:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.select1 {
+    position: relative;
+}
+
+.select1:hover .overylay1 {
+    opacity: 1;
+}
+
+.overlay1 {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease; */
+    background-color: #008CBA;
+}
+
+.application-title {
+    min-height: 30vh;
+}
+
+.application-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.loginBackground {
+    min-height: 100vh;
+    background: url('../img/loginBackground.jpg');
+}
+
+.bg-danger {
+    background-color: #800000 !important;
+}
+
+.bg-warning {
+    background-color: #ffc000 !important;
+}
+
+.btn-warning {
+    background-color: #ffc000 !important;
+}
+
+.card1 {
+    width: 23%;
+    padding: 1rem 3rem;
+}
+
+.secondcard {
+    width: 100%;
+    padding: 1rem 3rem 1rem 0;
+}
+
+.tableCard {
+    height: 60vh !important;
+    overflow-x: auto;
+}
+
+.table {
+    white-space: nowrap;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 46vh;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+#nav-tabContent {
+    padding: 1rem 0;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.vlchart0 {
+    border-left: 2px solid lightgray;
+    height: 200px;
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding: 15px !important;
+    }
+    li:nth-child(4) {
+        display: none;
+    }
+    .title {
+        display: block;
+    }
+    .card-group {
+        padding: 1rem !important;
+        font-size: 0.9rem !important;
+    }
+    .card {
+        width: 100% !important;
+    }
+    .card3rd {
+        margin-right: 1rem;
+    }
+    .latestNews2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .vl, .vl2, .vl3, .line {
+        display: none !important;
+    }
+    .fillupForm, .fillupForm2 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        min-height: 600px !important;
+    }
+    .fillupGroup {
+        width: 100% !important;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .card-title {
+        font-size: 13px !important;
+    }
+    .sendBtn {
+        margin-left: 0;
+    }
+    .footer {
+        background-color: #800000;
+        flex-direction: column !important;
+    }
+    .footerContent {
+        margin-bottom: 3rem;
+    }
+    .application-selection2 {
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+    .selectionClass1 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .selectionClass2 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .application-footer {
+        position: relative;
+        padding-bottom: 1rem;
+    }
+    .loginForm {
+        width: 100% !important;
+    }
+    #desktopViewNav {
+        display: none !important;
+    }
+    .dashboardTitle {
+        margin-left: 0 !important;
+        width: 50% !important;
+    }
+    .card1 {
+        width: 100% !important;
+        padding: 1rem 1rem !important;
+    }
+    .secondcard {
+        width: 100% !important;
+        padding: 1rem 1rem !important;
+    }
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdFourthCard{
+        flex-direction: column;
+    }
+    .statusCard{
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 1064px) {
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding: 15px !important;
+    }
+    li:nth-child(4) {
+        display: none;
+    }
+    .title {
+        display: block;
+    }
+    .card-group {
+        padding: 1rem !important;
+        font-size: 0.9rem !important;
+    }
+    .card {
+        width: 100% !important;
+    }
+    .card3rd {
+        margin-right: 1rem;
+    }
+    .latestNews2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .fillupForm, .fillupForm2 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .fillupGroup {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .card-title {
+        font-size: 13px !important;
+    }
+    .card-text p a {
+        font-size: 10px;
+    }
+    .vl, .vl2, .vl3, .line {
+        display: none !important;
+    }
+    .fillupGroup {
+        flex-direction: column;
+    }
+    .news {
+        margin-bottom: 0 !important;
+    }
+    .sendBtn {
+        margin-left: 0;
+    }
+    .application-title h3 {
+        font-size: 1.2rem !important;
+    }
+    .application-title h5 {
+        font-size: 1rem !important;
+    }
+    .application-selection2 {
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+    .selectionClass1 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .selectionClass2 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .application-footer {
+        position: relative;
+        padding-bottom: 1rem;
+    }
+    .loginForm {
+        width: 100% !important;
+    }
+    #desktopViewNav {
+        display: none !important;
+    }
+    .dashboardTitle {
+        margin-left: 0 !important;
+    }
+    .card1 {
+        width: 50%;
+        padding: 1rem 1rem;
+    }
+    .balanceCard .card-title {
+        font-size: 1.75rem !important;
+    }
+    .secondcard .card-title {
+        font-size: 1.75rem !important;
+    }
+    .dashboard{
+        overflow-x: auto;
+    }
+}

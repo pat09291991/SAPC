@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script src="https://kit.fontawesome.com/f486ab3997.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid mb-5">
+        <div class="d-flex flex-column text-center align-items-center application-selection">
+            <div class="application-title pt-3">
+                <img class="logo" src="./assets/img/Logo.png" />
+                <h3>SAN ANTONIO DE PADUA COLLEGE</h3>
+                <h5>Foundation of Pila, Laguna, Inc.</h5>
+                <h3 class="font-weight-bolder">ONLINE ENROLLMENT APPLICATION</h3>
+            </div>
+            <div class="bg-danger w-100 mb-2" style="min-height: 4rem;">
+                <h3 class="mb-0 text-white">NEW ENROLLEE ONLINE APPLICATION</h3>
+                <div class="text-center d-flex justify-content-center">
+                    <hr class="w-25" style="border: 2px solid #ffc000;">
+                </div>
+            </div>
+            <div class="w-100">
+                <p class="text-danger font-weight-bolder"><i>Fill out Applicant Personal Data Form</i></p>
+                <div class="border-danger w-100 px-5 py-4" style="min-height: 20vh; border: 1px solid #800000">
+                    <p class="text-left mb-0 text-danger font-weight-bolder">LASTNAME</p>
+                    <input class="form-control shadow-sm w-100" />
+                    <p class="text-warning text-left font-weight-bolder"><i>*Required</i></p>
+                    <p class="text-left mb-0 text-danger font-weight-bolder">FIRSTNAME</p>
+                    <input class="form-control shadow-sm w-100" />
+                    <p class="text-warning text-left font-weight-bolder"><i>*Required</i></p>
+                    <p class="text-left mb-0 text-danger font-weight-bolder">MIDDLENAME</p>
+                    <input class="form-control shadow-sm w-100 mb-3" />
+                    <p class="text-left mb-0 text-danger font-weight-bolder">BIRTHDATE</p>
+                    <input type="date" id="start" name="trip-start" class="form-control shadow-sm">
+                    <p class="text-warning text-left font-weight-bolder mb-4"><i>*Required (Click the field to OPEN a MINI-CALENDAR picker) <span class="text-danger">FORMAT: YYYY-MM-DD.</span></i></p>
+                    <p class="px-5 text-warning"><i>Befor clicking "Continue" button below, please make sure that you have provided the correct LASTNAME, FIRSTNAME, <br> MIDDLENAME, and BIRTH DATE for these data will not be editable andymore in the next page. Kindly double-check these data before processing.</i></p>
+                </div>
+                <div class="d-flex">
+                    <button class="font-weight-bolder w-50 btn btn-danger rounded-0 border-0 py-3">CONTINUE</button>
+                    <button class="font-weight-bolder w-50 btn btn-warning rounded-0 border-0 py-3 text-white" onclick="login()">GO BACK TO SIGN IN PAGE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script>
+        function login() {
+            window.location.href = "./GradeSelection.html"
+        }
+    </script>
+</body>
+
+</html>

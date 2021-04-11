@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tertiary Education Login</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script src="https://kit.fontawesome.com/f486ab3997.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid loginBackground">
+        <div class="d-flex flex-column text-center align-items-center application-selection">
+            <div class="application-title pt-3">
+                <img class="logo" src="./assets/img/Logo.png" />
+                <h3>SAN ANTONIO DE PADUA COLLEGE</h3>
+                <h5>Foundation of Pila, Laguna, Inc.</h5>
+                <h3 class="font-weight-bolder">ONLINE ENROLLMENT APPLICATION</h3>
+            </div>
+
+            <div class="loginForm bg-danger w-25 py-5 mb-5">
+                <h3 class="text-white">TERTIARY <br> EDUCATION</h3>
+                <hr class="mx-5 border-warning">
+                <h5 class="text-warning mb-5">SIGN IN</h5>
+
+                <div class="text-left mx-5 text-white">
+                    <p class="mb-0">USERNAME</p>
+                    <input class="w-100 shadow mb-2 form-control"/>
+                    <p class="mb-0">PASSWORD</p>
+                    <input class="w-100 shadow mb-3 form-control"/>
+                    <button class="btn btn-warning mb-4 text-dark" onclick="login()">Login</button>
+
+                    <div class="text-center mb-3">
+                        <a href="#" class="text-white"><u>FORGOT PASSWORD?</u></a>
+                    </div>
+                    <div class="text-center">
+                        <a href="./RegistrationStep1.html" class="text-warning"><u>NEW STUDENT/TRANSFEREE</u></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script>
+        function login(){
+            window.location.href = "./Dashboard.html"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script src="https://kit.fontawesome.com/f486ab3997.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="d-flex flex-column text-center align-items-center application-selection">
+            <div class="application-title pt-3">
+                <img class="logo" src="./assets/img/Logo.png" />
+                <h3>SAN ANTONIO DE PADUA COLLEGE</h3>
+                <h5>Foundation of Pila, Laguna, Inc.</h5>
+                <h3 class="font-weight-bolder">ONLINE ENROLLMENT APPLICATION</h3>
+            </div>
+
+            <div class="d-flex justify-content-between application-selection2">
+                <div class="select1">
+                    <img class="selectionClass1" onclick="myFunction('gradeSchool')" src="./assets/img/basic.jpg" />
+                    <div class="overlay1"></div>
+                </div>
+
+                <div>
+                    <div class="overlay2"></div>
+                    <img class="selectionClass1" onclick="myFunction('tertiary')" src="./assets/img/tertiary.jpg" />
+                </div>
+
+                <div>
+                    <div class="overlay3"></div>
+                    <img class="selectionClass2" onclick="myFunction('technical')" src="./assets/img/technical.jpg" />
+                </div>
+            </div>
+
+            <div class="application-footer">
+                <p>&copy; SAPC Pila</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script>
+        function myFunction(e) {
+            if(e == 'gradeSchool'){
+                window.location.href = "./GradeSelectionLogin.html"
+            }
+            if(e == 'tertiary'){
+                window.location.href = "./TertiarySelectionLogin.html"
+            }
+            if(e == 'technical'){
+                window.location.href = "./TechnicalSelectionLogin.html"
+            }
+        }
+    </script>
+</body>
+
+</html>
